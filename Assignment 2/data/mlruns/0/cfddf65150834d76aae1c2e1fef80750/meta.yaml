@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/0/cfddf65150834d76aae1c2e1fef80750/artifacts
+end_time: 1677491636346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfddf65150834d76aae1c2e1fef80750
+run_name: dazzling-whale-399
+run_uuid: cfddf65150834d76aae1c2e1fef80750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677491631465
+status: 3
+tags: []
+user_id: root
