@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/0/00e180b7ad2143f8a7d7f164b8ed8f8e/artifacts
+end_time: 1677492128179
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00e180b7ad2143f8a7d7f164b8ed8f8e
+run_name: delicate-newt-671
+run_uuid: 00e180b7ad2143f8a7d7f164b8ed8f8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677492092889
+status: 3
+tags: []
+user_id: root
