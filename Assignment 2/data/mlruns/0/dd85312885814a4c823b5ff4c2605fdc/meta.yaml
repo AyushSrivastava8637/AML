@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/0/dd85312885814a4c823b5ff4c2605fdc/artifacts
+end_time: 1677491531129
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd85312885814a4c823b5ff4c2605fdc
+run_name: upbeat-wolf-280
+run_uuid: dd85312885814a4c823b5ff4c2605fdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677491525468
+status: 3
+tags: []
+user_id: root
