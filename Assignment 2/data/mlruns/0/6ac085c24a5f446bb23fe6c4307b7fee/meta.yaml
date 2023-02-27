@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/0/6ac085c24a5f446bb23fe6c4307b7fee/artifacts
+end_time: 1677492135039
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ac085c24a5f446bb23fe6c4307b7fee
+run_name: Multilayer Perceptron
+run_uuid: 6ac085c24a5f446bb23fe6c4307b7fee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677492128193
+status: 3
+tags: []
+user_id: root
