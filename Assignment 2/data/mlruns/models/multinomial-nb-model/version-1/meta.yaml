@@ -1,0 +1,12 @@
+creation_timestamp: 1677491878100
+current_stage: None
+description: null
+last_updated_timestamp: 1677491878100
+name: multinomial-nb-model
+run_id: 37b2550b2e36402ca4aed4f47002a3b3
+run_link: null
+source: file:///content/mlruns/0/37b2550b2e36402ca4aed4f47002a3b3/artifacts/sklearn-model
+status: READY
+status_message: null
+user_id: null
+version: 1

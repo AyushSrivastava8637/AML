@@ -1,0 +1,12 @@
+creation_timestamp: 1677491641268
+current_stage: None
+description: null
+last_updated_timestamp: 1677491641268
+name: random-forest-classification-model
+run_id: 5036bdb314754812b9fbd4c96ad143eb
+run_link: null
+source: file:///content/mlruns/0/5036bdb314754812b9fbd4c96ad143eb/artifacts/sklearn-model
+status: READY
+status_message: null
+user_id: null
+version: 1
