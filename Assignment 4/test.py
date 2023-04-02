@@ -82,7 +82,43 @@ class TestFlask(unittest.TestCase):
         # Shut down the Flask app using os.system
         os.system('kill $(lsof -t -i:5000)')
 
+def test_docker():
+    
+    # Build and run the Docker container
+    os.system('docker build --network=host -t img_spam_classification .')
 
+    # Run Docker Container (and the app with it)
+    os.system('docker run --shm-size=2G -p 5000:5000 --name spam-flask-app -it -d img_spam_classification')
+
+    time.sleep(10)
+    # Run Test Flask again
+    # Make a get request to the endpoint
+    response = requests.get('http://127.0.0.1:5000/')
+    print(response.status_code)
+
+    # Assert that the response is what we expect
+    assert response.status_code == 200
+
+    assert type(response.text) == str
+
+    # Make a post request to the endpoint score
+    json_response = requests.post('http://127.0.0.1:5000/score', {"sent": obv_ham_text})
+
+    # Assert that the response is what we expect
+    assert json_response.status_code == 200
+
+    assert type(json_response.text) == str
+
+    # Asserting to check whether its the intended json
+
+    load_json = json.loads(json_response.text)
+
+    assert type(load_json["Sentence"]) == str
+
+    assert load_json["Prediction"] == "Spam" or load_json["Prediction"] == "Not spam"
+
+    prop_score = float(load_json["Propensity"])
+    assert prop_score >= 0 and prop_score <= 1
 if __name__ == '__main__':
     unittest.main()
 
